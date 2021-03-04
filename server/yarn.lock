@@ -671,12 +671,6 @@
     "@types/koa" "*"
     graphql "^14.5.3"
 
-"@types/helmet@*":
-  version "0.0.45"
-  resolved "https://registry.yarnpkg.com/@types/helmet/-/helmet-0.0.45.tgz#3eab6550a4e19acf86012596a7f1981529480fd5"
-  dependencies:
-    "@types/express" "*"
-
 "@types/http-assert@*":
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/@types/http-assert/-/http-assert-1.5.1.tgz#d775e93630c2469c2f980fc27e3143240335db3b"
@@ -731,12 +725,13 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-helmet@^5.2.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@types/koa-helmet/-/koa-helmet-5.2.0.tgz#38e6cd62c8dfc3e0700ca5b77453462ed8d145dd"
+"@types/koa-helmet@^6.0.2":
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/@types/koa-helmet/-/koa-helmet-6.0.2.tgz#715203c6e76903430fdc5b9d1b84e9a463b2b6cf"
+  integrity sha512-b/nCrjlMWTEoQrR9x3JiJ3RVn6CgvTuiZywWOwD6dnN0h6ZRcGi7tjnRPNOydCUYfBjDmMaqGgEoCBCCXY2Hrg==
   dependencies:
-    "@types/helmet" "*"
     "@types/koa" "*"
+    helmet "^4.0.0"
 
 "@types/koa-router@^7.4.1":
   version "7.4.1"
@@ -2665,6 +2660,11 @@ helmet@^3.21.1:
     nocache "2.1.0"
     referrer-policy "1.2.0"
     x-xss-protection "1.3.0"
+
+helmet@^4.0.0:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/helmet/-/helmet-4.4.1.tgz#a17e1444d81d7a83ddc6e6f9bc6e2055b994efe7"
+  integrity sha512-G8tp0wUMI7i8wkMk2xLcEvESg5PiCitFMYgGRc/PwULB0RVhTP5GFdxOwvJwp9XVha8CuS8mnhmE8I/8dx/pbw==
 
 hide-powered-by@1.1.0:
   version "1.1.0"
